@@ -1,0 +1,51 @@
+div.movieBanner {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #00000030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.movieBanner div.mvBanner-content {
+  border-radius: 35px;
+  background-color: rgb(13, 8, 19);
+  width: 50vw;
+  height: 40vw;
+  padding: 40px 20px;
+  color: white;
+}
+
+div.movieBanner div.mvBanner-content div.frame1 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+div.movieBanner div.mvBanner-content div.frame1 div.quickView {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+div.movieBanner div.mvBanner-content div.frame1 div.closeBanner {
+  position: absolute;
+  right: 5px;
+  top: -5px;
+  font-size: 20px;
+}
+
+div.movieBanner div.mvBanner-content div.frame1 div.qV-frame h2.qv-title {
+  margin-bottom: 10px;
+}
+
+div.movieBanner div.mvBanner-content div.mvDescription h2.title {
+  margin-bottom: 15px;
+}

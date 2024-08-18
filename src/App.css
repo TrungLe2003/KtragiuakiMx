@@ -1,0 +1,79 @@
+div.home {
+  width: 1340px;
+  height: 1009px;
+  background-color: #192026;
+  padding: 15px 83px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.home:has(div.movieBanner) {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+div.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.navBar h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+}
+
+div.navBar div.navBar-home,
+div.navBar-list {
+  color: #868686;
+  font-size: 18px;
+}
+
+div.navBar input {
+  width: 374.58px;
+  height: 48px;
+  border-radius: 37px;
+  border: none;
+  background-color: #374151;
+  color: #868686;
+}
+
+div.home h2.explore {
+  color: white;
+  margin-top: 29px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+div.home div.suggest {
+  color: #868686;
+  font-size: 22px;
+  margin-top: 29px;
+}
+
+div.home div.carousel {
+  margin-top: 29px;
+}
+
+div.home div.carousel img {
+  width: 1170px;
+  height: 400px;
+}
+
+div.home div.Latest_release {
+  margin-top: 29px;
+  justify-content: display;
+  flex-direction: column;
+}
+div.home div.Latest_release h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+div.home div.movieList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
